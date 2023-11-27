@@ -597,16 +597,6 @@ progress {
   content: "— ";
 }
 
-.footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  background-color: var(--bs-gray-900); /* 배경 색상을 원하는 색상으로 변경하세요 */
-  padding: 15px 0;
-  text-align: center;
-  color: #fff; /* 텍스트 색상을 원하는 색상으로 변경하세요 */
-}
-
 .img-fluid {
   max-width: 100%;
   height: auto;
@@ -10842,9 +10832,11 @@ textarea.form-control-lg {
 }
 
 .footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  background-color: #ccc; /* 원하는 회색 색상으로 변경하세요 */
-  padding: 15px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--bs-gray-900); /* 배경 색상을 원하는 색상으로 변경하세요 */
+    padding: 15px 0;
+    text-align: center;
+    color: #fff; /* 텍스트 색상을 원하는 색상으로 변경하세요 */
 }
